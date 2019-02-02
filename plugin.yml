@@ -1,0 +1,31 @@
+---
+name: Nick
+version: 3.0.5
+api:
+- 3.0.0
+- 3.1.0
+- 3.2.0
+- 3.3.0
+- 4.0.0
+main: Nick2\Main
+author: ElektroPrinz
+description: Nicks in PocketMine!
+permissions:
+  nick.help:
+    default: true
+  nick.set:
+    default: true
+  nick.reset:
+    default: true
+  nick.see:
+    default: op
+  nick.admin.set:
+    default: op
+  nick.admin.reset:
+    default: op
+commands:
+  nick:
+    description: Nick main command
+    usage: /nick <help>
+    permission: nick.help
+...
